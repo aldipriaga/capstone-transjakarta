@@ -2,7 +2,7 @@
 # 🚍 Data-Driven Insights for Improving TransJakarta Service Efficiency and User Satisfaction
 
 ## 📌 Deskripsi Proyek
-Proyek ini bertujuan memberikan **insight berbasis data** dari transaksi TransJakarta untuk mendukung pengambilan keputusan yang strategis. Dengan menggunakan data selama **April 2023**, kami mengeksplorasi **pola perjalanan, demografi pengguna, serta transaksi dengan nominal Rp0** untuk mengidentifikasi potensi perbaikan layanan.
+Proyek ini bertujuan memberikan **insight berbasis data** dari transaksi TransJakarta untuk mendukung pengambilan keputusan yang strategis. Dengan menggunakan data selama **April 2023**, aku mengeksplorasi **pola perjalanan, demografi pengguna, serta transaksi dengan nominal Rp0** untuk mengidentifikasi potensi perbaikan layanan.
 
 ## 🎯 Tujuan Analisis
 - Mengidentifikasi **tren penggunaan** berdasarkan waktu dan lokasi.
@@ -16,7 +16,7 @@ Proyek ini bertujuan memberikan **insight berbasis data** dari transaksi TransJa
 - Jumlah kolom: 26, termasuk informasi waktu, lokasi halte, usia pengguna, jarak tempuh, dan nominal pembayaran.
 
 ## 🛠 Tools yang Digunakan
-- Python (Pandas, Seaborn, Matplotlib)
+- Python (Pandas, Seaborn, Matplotlib, numpy)
 - Google Looker Studio
 - Git & GitHub
 
@@ -54,7 +54,7 @@ Dashboard dibangun di **Looker Studio** mencakup:
 - Segmentasi Gender & Usia
 - Perbandingan Hari Kerja vs Akhir Pekan
 
-🔗 Link Dashboard: [*Tambahkan link Looker Studio kamu di sini*]
+🔗 Link Dashboard: https://lookerstudio.google.com/reporting/6dc3986e-ab6d-4729-8ed7-5170f5b38973
 
 ## ✅ Rekomendasi Strategis
 1. **Optimalkan Armada** di koridor 1T, S21, dan JIS3.
@@ -71,4 +71,4 @@ Dashboard dibangun di **Looker Studio** mencakup:
 ```
 
 ## 🙋‍♂️ Kontak
-Dikembangkan oleh **[Nama kamu]** – jika ingin berdiskusi lebih lanjut, silakan hubungi via [LinkedIn/email/website].
+Dikembangkan oleh **Muhammad Aldi Priaga** – jika ingin berdiskusi lebih lanjut, silakan hubungi via www.linkedin.com/in/muhammad-aldi-priaga-269aa9179
