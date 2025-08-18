@@ -45,17 +45,6 @@ Proyek ini bertujuan memberikan **insight berbasis data** dari transaksi TransJa
 - Mayoritas pengguna berada pada kelompok **usia 18-50 tahun (Dewasa)**.
 - **Pengguna pria** sedikit lebih dominan dibanding wanita.
 
-## 📊 Dashboard Interaktif
-
-Dashboard dibangun di **Looker Studio** mencakup:
-- Jam Sibuk Penumpang
-- Top Koridor Terpadat
-- Proporsi Transaksi Rp0
-- Segmentasi Gender & Usia
-- Perbandingan Hari Kerja vs Akhir Pekan
-
-🔗 Link Dashboard: https://lookerstudio.google.com/reporting/6dc3986e-ab6d-4729-8ed7-5170f5b38973
-
 ## ✅ Rekomendasi Strategis
 1. **Optimalkan Armada** di koridor 1T, S21, dan JIS3.
 2. **Perjelas program promosi/subsidi Rp0**, terutama untuk kelompok usia dewasa & lansia.
