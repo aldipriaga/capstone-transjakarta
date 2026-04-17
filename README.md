@@ -1,63 +1,42 @@
+# 🚍 TransJakarta Service Optimization: Data-Driven Insights & User Behavior Analysis
 
-# 🚍 Data-Driven Insights for Improving TransJakarta Service Efficiency and User Satisfaction
+## 📌 Project Overview
+This project analyzes TransJakarta transaction data from April 2023 to uncover actionable insights for operational efficiency and service improvement. By exploring travel patterns, user demographics, and payment anomalies (such as Rp0 transactions), I aimed to provide strategic recommendations for better fleet management and policy refinement.
 
-## 📌 Deskripsi Proyek
-Proyek ini bertujuan memberikan **insight berbasis data** dari transaksi TransJakarta untuk mendukung pengambilan keputusan yang strategis. Dengan menggunakan data selama **April 2023**, aku mengeksplorasi **pola perjalanan, demografi pengguna, serta transaksi dengan nominal Rp0** untuk mengidentifikasi potensi perbaikan layanan.
+## 🛠️ Tech Stack
+* **Data Processing:** Python (Pandas, Numpy)
+* **Statistical Visualization:** Seaborn, Matplotlib
+* **Business Intelligence:** Google Looker Studio
+* **Version Control:** Git & GitHub
 
-## 🎯 Tujuan Analisis
-- Mengidentifikasi **tren penggunaan** berdasarkan waktu dan lokasi.
-- Menganalisis **profil demografi pengguna** (usia dan gender).
-- Mendeteksi **pola transaksi tidak biasa** seperti tarif Rp0.
-- Merumuskan **rekomendasi strategis** berdasarkan hasil analisis.
+## 🔍 Key Insights & Analysis
 
-## 📂 Dataset
-- File: `df_cleaned.csv`
-- Periode: April 2023
-- Jumlah kolom: 26, termasuk informasi waktu, lokasi halte, usia pengguna, jarak tempuh, dan nominal pembayaran.
+### 1. Peak Hour Dynamics
+The data confirms that peak demand occurs between **05:00 - 06:00 AM** and **05:00 - 06:00 PM**. This high-concentration window suggests a heavy reliance on the service for daily commutes, leaving a significant gap in off-peak utilization.
 
-## 🛠 Tools yang Digunakan
-- Python (Pandas, Seaborn, Matplotlib, numpy)
-- Google Looker Studio
-- Git & GitHub
+### 2. High-Traffic Corridor Identification
+The top 3 busiest corridors are **1T, S21, and JIS3**. These routes consistently show the highest transaction volume, signaling an urgent need for optimized fleet allocation during rush hours to reduce passenger wait times.
 
-## 🔍 Analisis & Insight Utama
+### 3. The "Rp0 Fare" Phenomenon
+I identified a significant volume of Rp0 transactions peaking during rush hours. Interestingly, the **Adult segment** dominates these transactions. This finding warrants a deeper audit to distinguish between legitimate social subsidies (e.g., specific cardholder programs) and potential technical leakages or system errors.
 
-### 1. Pola Penggunaan Berdasarkan Waktu
-- **Jam sibuk** pengguna TransJakarta terjadi pada **pukul 05:00 - 06:00** dan **17:00 - 18:00**.
-- Volume transaksi menurun drastis di luar jam operasional umum.
+### 4. User Segmentation: Loyal vs. Dynamic
+* **Dynamic Users (86.2%):** Exhibit flexible routes and timing—representing a massive market for off-peak promotions.
+* **Loyal Users (13.8%):** Highly dependent on morning rush-hour schedules, forming the core backbone of the service's daily revenue and stability.
 
-### 2. Segmentasi Hari
-- Aktivitas pengguna **lebih tinggi di hari kerja** dibanding akhir pekan.
-- Terdapat perbedaan pola pemakaian yang signifikan.
+### 5. Demographic Breakdown
+The majority of riders fall within the **18-50 year age bracket (Adults)**, with male users showing a slightly higher representation. Understanding this core demographic allows for more targeted in-bus advertising and service tailoring.
 
-### 3. Koridor Paling Padat
-- Top 3 koridor: `1T`, `S21`, dan `JIS3` → memerlukan **alokasi armada lebih banyak**.
+## ✅ Strategic Recommendations
+* **Fleet Re-allocation:** Increase frequency for high-demand corridors (1T, S21, JIS3) specifically during the identified peak hours.
+* **Subsidy Transparency:** Review the Rp0 fare policy to ensure it targets the right demographics effectively and minimize revenue leakage.
+* **Retention Marketing:** Develop loyalty programs for daily commuters while creating "off-peak" incentives for dynamic users to balance the load throughout the day.
 
-### 4. Perilaku Transaksi Rp0
-- Terjadi puncak transaksi Rp0 pada jam **06:00** dan **17:00**.
-- **Segmen Dewasa** mendominasi transaksi Rp0 → perlu investigasi lebih lanjut: apakah bagian dari **program tertentu** atau potensi error teknis.
+## 📁 Repository Structure
+* `Capstone3.ipynb`: Full Python notebook covering data cleaning and EDA.
+* `df_cleaned.csv`: The processed dataset used for the final analysis.
+* `README.md`: Project documentation.
 
-### 5. Segmentasi Pengguna: Loyal vs Dinamis
-- **86.2%** pengguna tergolong **dinamis** (jam & rute fleksibel).
-- **13.8%** tergolong **loyal**, sangat bergantung pada bus di jam pagi.
-
-### 6. Demografi Pengguna
-- Mayoritas pengguna berada pada kelompok **usia 18-50 tahun (Dewasa)**.
-- **Pengguna pria** sedikit lebih dominan dibanding wanita.
-
-## ✅ Rekomendasi Strategis
-1. **Optimalkan Armada** di koridor 1T, S21, dan JIS3.
-2. **Perjelas program promosi/subsidi Rp0**, terutama untuk kelompok usia dewasa & lansia.
-3. **Rancang strategi retensi** untuk pengguna loyal & pendekatan akuisisi untuk segmen dinamis.
-4. **Perluas layanan** di waktu non-puncak untuk menjangkau pengguna dengan pola lebih fleksibel.
-
-## 📎 Struktur File
-```
-📁 Project Folder/
-├── Capstone3.ipynb          # Notebook Python (EDA + cleansing)
-├── df_cleaned.csv           # Dataset hasil pembersihan
-└── README.md                # File ini
-```
-
-## 🙋‍♂️ Kontak
-Dikembangkan oleh **Muhammad Aldi Priaga** – jika ingin berdiskusi lebih lanjut, silakan hubungi via www.linkedin.com/in/muhammad-aldi-priaga-269aa9179
+---
+**Developed by [Muhammad Aldi Priaga]**
+*Let's connect on [LinkedIn](https://www.linkedin.com/in/muhammad-aldi-priaga-269aa9179)*
